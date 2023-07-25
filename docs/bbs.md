@@ -350,6 +350,12 @@ pageClass: routes
 
 </Route>
 
+## SecIN 信息安全技术社区
+
+### 最新文章
+
+<Route author="p7e4" example="/sec-in" path="/sec-in"/>
+
 ## The Ring of Wonder
 
 ### 首页更新
@@ -507,6 +513,16 @@ pageClass: routes
 
 </Route>
 
+## 丁香园
+
+### 专题
+
+<Route author="TonyRL" example="/dxy/bbs/special/72" path="/dxy/bbs/special/:specialId" :paramsDesc="['专题 ID，可在对应专题页 URL 中找到']" radar="1"/>
+
+### 个人帖子
+
+<Route author="TonyRL" example="/dxy/bbs/profile/thread/8335054" path="/dxy/bbs/profile/thread/:userId" :paramsDesc="['个人 ID，可在 URL 中找到']" radar="1"/>
+
 ## 斗鱼
 
 ### 鱼吧帖子
@@ -662,6 +678,12 @@ pageClass: routes
 | cTime    | rTime    | replycount | viewcount |
 
 </Route>
+
+## 火线
+
+### Zone
+
+<Route author="p7e4" example="/huoxian/zone" path="/huoxian/zone"/>
 
 ## 集思录
 
